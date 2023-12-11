@@ -1,7 +1,7 @@
 class GameScene extends Phaser.Scene {
   constant = 100;
   preload() {
-    this.load.image("photo", "assets/photo.jpg");
+    this.load.image("photo", "assets/photo.png");
   }
   create() {
     this.cameras.main.setBackgroundColor("#000");
