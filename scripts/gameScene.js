@@ -67,8 +67,8 @@ class GameScene extends Phaser.Scene {
     easterEggs.forEach((memeString) => {
       this[memeString] = this.add
         .image(
-          Phaser.Math.Between(100, this.game.config.width - 100),
-          Phaser.Math.Between(100, this.game.config.height - 100),
+          Phaser.Math.Between(200, this.game.config.width - 200),
+          Phaser.Math.Between(200, this.game.config.height - 200),
           memeString
         )
         .setDepth(0)
