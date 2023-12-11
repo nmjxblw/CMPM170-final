@@ -7,7 +7,8 @@ const game = new Phaser.Game({
         height: 1080
     },
     scene: [
-        GameScene
+        GameScene,
+        Credit
     ],
     backgroundColor: 0x000000,
     title: "Game",
